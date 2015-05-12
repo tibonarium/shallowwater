@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Shallow_water_1d - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\home\AppData\Local\Temp\RSP42FE.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Shallow_water_1d.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\FILES\Matlab and C++\Shallow water\Shallow_water_1d\Breakup_bottom.cpp"
+]
+Creating command line "cl.exe @C:\Users\home\AppData\Local\Temp\RSP42FE.tmp" 
+Creating temporary file "C:\Users\home\AppData\Local\Temp\RSP42FF.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Shallow_water_1d.pdb" /debug /machine:I386 /out:"Debug/Shallow_water_1d.exe" /pdbtype:sept 
+".\Debug\Breakup_bottom.obj"
+]
+Creating command line "link.exe @C:\Users\home\AppData\Local\Temp\RSP42FF.tmp"
+<h3>Output Window</h3>
+Compiling...
+Breakup_bottom.cpp
+C:\FILES\Matlab and C++\Shallow water\Shallow_water_1d\Breakup_bottom.cpp(124) : warning C4101: 'U_shore' : unreferenced local variable
+C:\FILES\Matlab and C++\Shallow water\Shallow_water_1d\Breakup_bottom.cpp(126) : warning C4101: 'Q' : unreferenced local variable
+C:\FILES\Matlab and C++\Shallow water\Shallow_water_1d\Breakup_bottom.cpp(126) : warning C4101: 'q' : unreferenced local variable
+C:\FILES\Matlab and C++\Shallow water\Shallow_water_1d\Breakup_bottom.cpp(148) : warning C4101: 'f_id_Shore' : unreferenced local variable
+C:\FILES\Matlab and C++\Shallow water\Shallow_water_1d\Breakup_bottom.cpp(89) : warning C4101: 'f_id_animation' : unreferenced local variable
+C:\FILES\Matlab and C++\Shallow water\Shallow_water_1d\Breakup_bottom.cpp(123) : warning C4101: 'dT_p' : unreferenced local variable
+C:\FILES\Matlab and C++\Shallow water\Shallow_water_1d\Breakup_bottom.cpp(122) : warning C4101: 'X_pp' : unreferenced local variable
+C:\FILES\Matlab and C++\Shallow water\Shallow_water_1d\Breakup_bottom.cpp(145) : warning C4101: 'f_id_1D_FLOW' : unreferenced local variable
+C:\FILES\Matlab and C++\Shallow water\Shallow_water_1d\Breakup_bottom.cpp(53) : warning C4101: 'j' : unreferenced local variable
+C:\FILES\Matlab and C++\Shallow water\Shallow_water_1d\Breakup_bottom.cpp(48) : warning C4101: 'fl' : unreferenced local variable
+C:\FILES\Matlab and C++\Shallow water\Shallow_water_1d\Breakup_bottom.cpp(95) : warning C4101: 'Number_of_variables' : unreferenced local variable
+C:\FILES\Matlab and C++\Shallow water\Shallow_water_1d\Breakup_bottom.cpp(122) : warning C4101: 'X_p' : unreferenced local variable
+C:\FILES\Matlab and C++\Shallow water\Shallow_water_1d\Breakup_bottom.cpp(128) : warning C4101: 'i_shore' : unreferenced local variable
+C:\FILES\Matlab and C++\Shallow water\Shallow_water_1d\Breakup_bottom.cpp(126) : warning C4101: 'Fr' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+Shallow_water_1d.exe - 0 error(s), 14 warning(s)
+</pre>
+</body>
+</html>
